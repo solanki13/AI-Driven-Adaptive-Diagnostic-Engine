@@ -172,3 +172,11 @@ To ensure the system continues functioning, a fallback study plan generator was 
 ## Conclusion
 
 This project demonstrates how adaptive testing systems can improve assessments by dynamically adjusting difficulty levels and providing AI-powered learning recommendations.# AI-Driven-Adaptive-Diagnostic-Engine
+
+
+------------------------------------------------------------
+
+## Author
+
+Priyanka Solanki  
+B.Tech Computer Science
