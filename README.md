@@ -21,22 +21,34 @@ API Documentation: FastAPI Swagger UI
 
 ## Project Structure
 
+```
 AI-Driven-Adaptive-Diagnostic-Engine
 │
 ├── app
-│   ├── main.py
-│   ├── routes.py
-│   ├── database.py
-│   ├── adaptive_engine.py
-│   └── ai_plan.py
+│ ├── main.py
+│ ├── routes.py
+│ ├── database.py
+│ ├── adaptive_engine.py
+│ └── ai_plan.py
 │
 ├── seed_questions.py
 ├── requirements.txt
 ├── README.md
 ├── .gitignore
-
+```
 ------------------------------------------------------------
+## Environment Variables
 
+This project uses environment variables for sensitive information such as API keys.
+
+Create a `.env` file in the project root directory and add the following:
+
+OPENAI_API_KEY=your_openai_api_key  
+MONGO_URL=mongodb://localhost:27017  
+
+### Note:  
+The `.env` file is **not included in this repository** for security reasons.  
+Users running this project must create their own `.env` file with the required variables.
 ## How to Run the Project
 
 Step 1: Install dependencies
