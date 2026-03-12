@@ -162,6 +162,14 @@ AI tools such as ChatGPT were used during development to assist with:
 • Integrating OpenAI API for generating study plans  
 • Generating GRE-style questions for the dataset  
 
+--------------------------------------------------------------
+
+## API Interface
+Swagger documentation available at:
+http://127.0.0.1:8000/docs
+
+--------------------------------------------------------------
+
 ### Challenges
 
 One challenge encountered was OpenAI API quota limitations during testing.  
